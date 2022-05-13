@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
+import SearchIcon from '@mui/icons-material/Search';
+
 
 const Header = () => {
   const [show, handleShow] = useState(false);
@@ -37,6 +39,7 @@ const Header = () => {
         </svg>
       </div>
       <form>
+      <SearchIcon/>
         <input
           placeholder="Search for brand, color, etc."
           type="text"

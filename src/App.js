@@ -3,7 +3,7 @@ import './style.css';
 import Header from './Header';
 import Body from './Body';
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <Header />
