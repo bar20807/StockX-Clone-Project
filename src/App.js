@@ -7,7 +7,8 @@ const App = () => {
   return (
     <div className="app">
       <Header />
-      <Body />
-      </div>)
+      <Body/>
+    </div>
+  )
 }
 export default App;
