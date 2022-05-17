@@ -25,6 +25,11 @@ module.exports = {
       }
     ]
   },
+  performance: {
+    hints: false,
+    maxEntrypointSize: 512000,
+    maxAssetSize: 512000
+  },
   plugins:[
       new HTMLPlugin({
           template: path.join(__dirname, "./src/index.html")

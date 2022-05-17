@@ -121,9 +121,9 @@ ul{
 }
 
 .header input {
-    width: 712px;
-    height: 44px;
-    padding: 0px 12px 0px 10px;
+    width: 1110px;
+    height: 48px;
+    padding: 0px 12px 0px 60px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -131,10 +131,19 @@ ul{
     border: 1px solid black;
     border-radius: 2px;
     box-shadow: none;
-    margin-left: 30px;
-    margin-right: -30px;
+}
+.header form{
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 75px;
+    margin-top: 70px;
+    margin-right: -15px;
+}
+
+.header form svg{
+    left: 40px;
+    position: relative;
 }
 
 /*
@@ -186,17 +195,48 @@ ul{
 }
 
 /*
-    Carrusel de imágenes
+    Popular Brands
+
 */
 
-.card{
-    width: 100%;
-    height: 200px;
-    font-size: 30px;
-    margin: 0 20px;
-    display: flex;
+.popular_brands{
+    margin: 0px 350px;
+    padding: 0px 15px;
     justify-content: center;
     align-items: center;
+}
+.popular_brands h2 {
+    margin-top: 24px;
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.popular_brands img {
+    padding: 0px;
+    width: 235px;
+    height: 162px;
+}
+
+.popular_brands ul {
+    list-style-type: none; 
+    padding: 0px;
+    display: flex;
+}
+
+.popular_brands li {
+    padding: 0px;
+    width: 235px;
+    height: 162px;
+
+    margin: 16px 8px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+}
+
+.popular_brands small {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0px;
 }
 
 /*
@@ -241,13 +281,13 @@ ul{
 }
 
 .featured-products img {
-    padding: 16px;
+    padding: 15px;
     height: 90px;
     width: auto;
 }
 
 .featured-products .product-title {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .featured-products small {
@@ -258,11 +298,6 @@ ul{
 .featured-products .product-price {
     font-size: 22px;
     font-weight: 600;
-}
-
-.featured-products .question-icon{
-    width: 20px;
-    height: 20px;
 }
 
 /*
