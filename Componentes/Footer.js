@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../css/style.css";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
@@ -123,9 +123,9 @@ const Get_Information = ({ sectionTitle, sectionTitle2, sectionTitle3, sectionTi
       <section className="bottom-section">
         <div className="row">
           <div className="options">
-            <div>United Kingdom |</div>
-            <div>English en |</div>
-            <div>£ GBP</div>
+            <div>Guatemala | </div>
+            <div>English | </div>
+            <div>$ USD</div>
           </div>
           <div className="row-middle">
             <div className="social-icons">

@@ -1,8 +1,8 @@
 import React from 'react';
-import './style.css';
-import Header from './Header';
-import Body from './Body';
-import Foot from './Footer';
+import '../css/style.css';
+import Header from '../Componentes/Header';
+import Body from '../Componentes/Body';
+import Foot from '../Componentes/Footer';
 
 const App = () => {
   return (

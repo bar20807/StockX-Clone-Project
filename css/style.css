@@ -24,7 +24,7 @@
 .header__white {
     background-color: white;
     transition-timing-function: ease-in-out;
-    transition: all 0.5s;
+    transition: all 0.1s;
 }
 
 .header ul {
@@ -147,6 +147,66 @@ ul{
 }
 
 /*
+    PROMOCIONES STYLE
+*/
+
+.list_article{
+    justify-content: center;
+    align-items: center;
+}
+
+.list-article-section{
+    margin: 0px 250px;
+    padding: 0px 15px;
+}
+
+.list_article .grande {
+    padding: 0px;
+    width: 1000px;
+    height: 552px;
+}
+
+
+.list_article .pequeño {
+    padding: 0px;
+    width: 400px;
+    height: 438px;
+
+}
+
+.list_article ul {
+    list-style-type: none; 
+    padding: 0px;
+    display: flex;
+}
+
+.list_article .grande img {
+    padding: 0px;
+    width: 900px;
+    height: 438px;
+    margin: -25px 8px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+}
+
+.list_article .pequeño img {
+    padding: 0px;
+    width: 420px;
+    height: 438px;
+    margin: -25px -30px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #fafafa;
+}
+
+.list_article small {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0px;
+}
+
+
+/*
     Body Style
 */
 
@@ -200,20 +260,23 @@ ul{
 */
 
 .popular_brands{
-    margin: 0px 350px;
-    padding: 0px 15px;
     justify-content: center;
     align-items: center;
 }
-.popular_brands h2 {
-    margin-top: 24px;
-    margin-left: 8px;
+.popular-brands-section{
+    margin: 30px 250px;
+    padding: 0px 15px;
+    display: flex;
+}
+.popular-brands-section h2{
+    margin: -30px 15px;
+    position: absolute;
     font-size: 18px;
 }
 
 .popular_brands img {
     padding: 0px;
-    width: 235px;
+    width: 255px;
     height: 162px;
 }
 
@@ -225,10 +288,10 @@ ul{
 
 .popular_brands li {
     padding: 0px;
-    width: 235px;
+    width: 255px;
     height: 162px;
 
-    margin: 16px 8px;
+    margin: 16px 9px;
     text-align: center;
     background-color: #fff;
     border: 2px solid #fafafa;
@@ -244,17 +307,40 @@ ul{
 
 */
 
-.featured-products {
-    margin: 0px 350px;
-    padding: 0px 15px;
+.featured-products{
+    
     justify-content: center;
     align-items: center;
 }
 
-.featured-products h2 {
-    margin-top: 24px;
-    margin-left: 8px;
+.featured-products-section h2 {
+    margin: -30px 15px;
+    position: absolute;
     font-size: 18px;
+}
+
+.featured-products-section .circulo {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -20px 165px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.featured-products-section .circulo_recently {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -22px 150px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
 }
 
 .featured-products ul {
@@ -263,11 +349,16 @@ ul{
     display: flex;
 }
 
+.featured-products-section{
+    margin: 0px 250px;
+    padding: 0px 15px;
+    display: flex;
+}
+
 .featured-products li {
     padding: 0px;
-    width: 215px;
+    width: 210px;
     height: 266px;
-
     margin: 16px 8px;
     text-align: center;
     background-color: #fff;
@@ -301,6 +392,37 @@ ul{
 }
 
 /*
+
+    Featured Apparel Style
+
+*/
+
+.featured-products-apparel h2 {
+    margin: -30px 15px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.featured-products-apparel .circulo_apparel {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -22px 152px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.featured-products-apparel{
+    margin: 30px 250px;
+    padding: 0px 15px;
+    display: flex;
+}
+
+
+/*
     APP STYLE
 */
 
@@ -320,7 +442,7 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
-  }
+}
 
 /*
 
@@ -433,4 +555,33 @@ code {
     align-items: center;
     width: 1140px;
     padding-bottom: 40px;
+}
+
+.Carousel_Item{
+    margin-top: 120px;
+    margin-bottom: 90px;
+    margin-right: 200px;
+}
+
+.Carousel_Item .rec-arrow{
+    background: black;
+    display: flexbox;
+
+}
+
+.Carousel_Item .rec-carousel{
+    width: 1600px;
+    height: 400px;
+}
+
+.Carousel_Item .rec-pagination{
+    margin-top: -40px;
+    z-index: 10;
+}
+
+.Carousel_Item .rec-pagination .rec-dot{
+    border-radius: 0%;
+    width: 8px;
+    height: 8px;
+    background: grey;
 }
