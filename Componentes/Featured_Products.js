@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/style.css'
+import '../css/featured-products.css';
 
 const Featured_Products = ({ productTitle, productImage, price, number,sold}) => {
      if (sold === true) {

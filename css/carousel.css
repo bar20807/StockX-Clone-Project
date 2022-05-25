@@ -1,0 +1,28 @@
+.Carousel_Item{
+    margin-top: 120px;
+    margin-bottom: 90px;
+    margin-right: 200px;
+}
+
+.Carousel_Item .rec-arrow{
+    background: black;
+    display: flexbox;
+
+}
+
+.Carousel_Item .rec-carousel{
+    width: 1600px;
+    height: 400px;
+}
+
+.Carousel_Item .rec-pagination{
+    margin-top: -40px;
+    z-index: 10;
+}
+
+.Carousel_Item .rec-pagination .rec-dot{
+    border-radius: 0%;
+    width: 8px;
+    height: 8px;
+    background: grey;
+}

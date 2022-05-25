@@ -1,0 +1,23 @@
+.featured-products-apparel h2 {
+    margin: -30px 15px;
+    position: absolute;
+    font-size: 18px;
+}
+
+.featured-products-apparel .circulo_apparel {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -22px 152px;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.featured-products-apparel{
+    margin: 30px 250px;
+    padding: 0px 15px;
+    display: flex;
+}

@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import '../css/index.css';
 import App from './App';
 import { hydrateRoot } from 'react-dom/client'
 
-/*ReactDOM.render(
+ReactDOM.render(
   <App/>,
   document.getElementById('root')
-);*/
+);
 
-const container = document.getElementById('root')
-hydrateRoot(container, <App />)
+/*const container = document.getElementById('root')
+hydrateRoot(container, <App />)*/
 

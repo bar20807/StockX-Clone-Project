@@ -1,5 +1,5 @@
 import React from "react"
-import '../css/style.css'
+import '../css/list-article.css';
 
 const List_Article = ({imagen,imagen1,state}) => {
     if (state===true) {

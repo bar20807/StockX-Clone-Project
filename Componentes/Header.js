@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import "../css/style.css";
+import '../css/categories.css';
+import '../css/header.css';
 import SearchIcon from '@mui/icons-material/Search';
 
 

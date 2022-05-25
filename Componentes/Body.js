@@ -1,5 +1,10 @@
 import React from 'react';
-import '../css/style.css';
+import '../css/categories.css';
+import '../css/carousel.css';
+import '../css/featured-products.css';
+import '../css/featured-apparel.css';
+import '../css/popular-brands.css';
+import '../css/list-article.css';
 import Carousel from 'react-elastic-carousel';
 import Featured_Products from './Featured_Products'
 import Popular_Brands from './Popular_brands';

@@ -1,5 +1,5 @@
 import React from "react";
-import '../css/style.css'
+import '../css/popular-brands.css';
 
 const Popular_Brands = ({titulo,image}) => {
     return (
