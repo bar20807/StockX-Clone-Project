@@ -7,7 +7,7 @@ StockX es una tienda en línea que se encarga de hacer la reventa de prendas o a
 
 Al ser una tienda en línea dichos articulos pueden ir cambiando o variando según la tendencia que se tenga en el mes, como también, según el precio o cantidad de ventas que puedan estar teniendo en ese momento. Por lo mismo, se establece que dicha réplica está actualizada al 24 de mayo del 2022.
 
-El siguiente proyecto de StockX Clone se encuentra alojado en el siguiente enlace: [StockX Clone]([StockX](https://stockx.com/ "StockX")"StockX Clone")
+El siguiente proyecto de StockX Clone se encuentra alojado en el siguiente servidor:  [StockX Clone](http://juanelcaballo.club/20807/Proyecto_1/index.html "StockX Clone")
 
 ## Tecnologías utilizadas
 -  ⚛️ React
@@ -28,6 +28,9 @@ El siguiente proyecto de StockX Clone se encuentra alojado en el siguiente enlac
 - `npm run lint` - ejecuta un gestor de reglas de eslint
 - `npm run lint:fix` - ejecuta un gestor de reglas de eslint y las arregla automáticamente
 - `npm run all` - ejecuta el desarrollo y construcción del SSR (Server Slide Rendering)
+
+## Recomendaciones
+Para la ejecución de este proyecto es recomendable verlo en una resolución de 1920x1080 para una mejor experiencia con el acabado del mismo.
 
 ## Proyecto creado por
 - José Rodrigo Barrera García
