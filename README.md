@@ -7,6 +7,8 @@ StockX es una tienda en línea que se encarga de hacer la reventa de prendas o a
 
 Al ser una tienda en línea dichos articulos pueden ir cambiando o variando según la tendencia que se tenga en el mes, como también, según el precio o cantidad de ventas que puedan estar teniendo en ese momento. Por lo mismo, se establece que dicha réplica está actualizada al 24 de mayo del 2022.
 
+El siguiente proyecto de StockX Clone se encuentra alojado en el siguiente enlace: [StockX Clone]([StockX](https://stockx.com/ "StockX")"StockX Clone")
+
 ## Tecnologías utilizadas
 -  ⚛️ React
 -  🧰 Webpack
