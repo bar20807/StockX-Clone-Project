@@ -25,8 +25,9 @@ Al ser una tienda en línea dichos articulos pueden ir cambiando o variando seg�
 - `npm run build` - construye el archivo de producción en la carpeta `dist`
 - `npm run lint` - ejecuta un gestor de reglas de eslint
 - `npm run lint:fix` - ejecuta un gestor de reglas de eslint y las arregla automáticamente
+- `npm run all` - ejecuta el desarrollo y construcción del SSR (Server Slide Rendering)
 
 ## Proyecto creado por
-José Rodrigo Barrera García
-Carnet: 20807
-Universidad del Valle de Guatemala
+- José Rodrigo Barrera García
+- Carnet: 20807
+- Universidad del Valle de Guatemala
